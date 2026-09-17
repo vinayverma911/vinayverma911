@@ -1,0 +1,64 @@
+{
+  "name": "Vinay Verma",
+  "title": "Full Stack Developer",
+  "summary": "Full Stack Developer with over 3 years of experience building scalable enterprise web platforms, real-time systems, and AI-integrated features using React, Angular, and Node.js.",
+  "photo": null,
+  "email": "vinay6264verma@gmail.com",
+  "phone": "+91-6264201044",
+  "linkedin": "https://www.linkedin.com/in/vinay-verma-7904a91a0",
+  "location": "Pune, India",
+  "skills": {
+    "Languages": ["C", "C++", "Java", "JavaScript", "TypeScript", "HTML", "CSS", "SQL"],
+    "Frameworks": ["Node.js", "Express.js", "React.js", "Angular"],
+    "Libraries": ["Mongoose", "RxJS", "Angular Material", "Socket.IO", "Nodemailer"],
+    "Tools & DevOps": ["Git", "GitHub Actions", "Docker", "CI/CD", "Jira", "Postman", "VS Code", "k6", "Claude Code"],
+    "Databases": ["MySQL", "MongoDB", "Redis"],
+    "Others": ["Data Structures & Algorithms", "Object-Oriented Programming", "JWT Authentication", "OAuth 2.0", "Role-Based Authorization", "REST APIs", "Microservices", "OpenAI GPT-4 API"]
+  },
+  "employment": {
+    "name": "Sakav Technology Pvt Ltd",
+    "title": "Full Stack Developer",
+    "start": "Dec 2022",
+    "end": "Present",
+    "projects": [
+      {
+        "title": "International School Services",
+        "link": "https://www.iss.edu",
+        "start": "Jan 2023",
+        "end": "Dec 2024",
+        "points": [
+          "Integrated OpenAI's GPT-4 API to power smart candidate suggestions, streamlining the hiring workflow for schools sourced through job fairs.",
+          "Built a large-scale, enterprise-level web platform for ISS, supporting 1,200+ international schools worldwide, using Angular and Express.js.",
+          "Reduced initial bundle size by 30% (2.3 MB → 1.6 MB) via lazy loading and route-level code splitting, improving load performance on low-bandwidth networks.",
+          "Architected a real-time messaging system using Socket.IO, supporting 100+ concurrent connections with low-latency delivery.",
+          "Built reusable UI components using Angular Material, with RxJS handling pagination and data streams to keep the UI consistent across features.",
+          "Implemented JWT-based authentication and role-based authorization for secure user management.",
+          "Added email OTP verification using Nodemailer during signup, providing an extra layer of protection against fraudulent account creation."
+        ],
+        "technologies": ["Angular", "Express.js", "TypeScript", "MongoDB", "Socket.IO", "Angular Material", "Mongoose", "RxJS", "Nodemailer"]
+      },
+      {
+        "title": "Clearpath",
+        "link": "https://www.myclearpath.com/",
+        "start": "Dec 2024",
+        "end": "Present",
+        "points": [
+          "Integrated Google OAuth 2.0 for secure, one-click user authentication, simplifying the sign-up flow.",
+          "Built the core backend architecture using Express.js and RESTful API conventions, with JWT-based session management and MongoDB Atlas as the primary database.",
+          "Optimized MongoDB connection pooling, sustaining 500 concurrent virtual users at 0% failure rate in k6 load testing.",
+          "Implemented Redis caching for frequently accessed data, reducing database load and improving API response times.",
+          "Built real-time notifications and in-app chat functionality using Socket.IO, delivering instant updates without page refreshes.",
+          "Built a GPT-4-powered chatbot for appointment scheduling, matching patient requests to available doctor slots."
+        ],
+        "technologies": ["React.js", "Express.js", "MongoDB", "Socket.IO", "Mongoose", "Redis"]
+      }
+    ]
+  },
+  "education": {
+    "name": "Chameli Devi Group of Institutions",
+    "start": "2018",
+    "end": "2022",
+    "title": "B.Tech. in Computer Science",
+    "CGPA": "7.55/10"
+  }
+}

@@ -10,6 +10,8 @@ const links = [
   { to: '/contact', label: 'Contact' },
 ]
 
+const resumeUrl = `${import.meta.env.BASE_URL}resume.pdf`
+
 function navLinkClass({ isActive }) {
   return `text-[16px] font-medium ${
     isActive
@@ -52,7 +54,7 @@ export default function Header() {
             {isDark ? <HiOutlineSun size={22} /> : <HiOutlineMoon size={22} />}
           </button>
           <a
-            href="/resume.pdf"
+            href={resumeUrl}
             download
             className="rounded-xl bg-gray-900 px-4 py-1.5 text-[16px] font-medium text-gray-50 hover:bg-gray-800 dark:bg-gray-50 dark:text-gray-900 dark:hover:bg-white"
           >
@@ -94,7 +96,7 @@ export default function Header() {
             </NavLink>
           ))}
           <a
-            href="/resume.pdf"
+            href={resumeUrl}
             download
             className="mt-2 rounded-xl bg-gray-900 px-4 py-2.5 text-center text-[16px] font-medium text-gray-50 dark:bg-gray-50 dark:text-gray-900"
           >
